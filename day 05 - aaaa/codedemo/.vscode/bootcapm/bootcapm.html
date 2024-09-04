@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <script type="module" src="bootstrap.min.js"></script>
+</head>
+<body>
+            <h1>thẻ cần lưu í</h1>
+            <h2>dropdown xuống</h2>
+            <h2>dropup len</h2>
+            <h2>dropright phải</h2>
+            <h2>dropleft trái</h2>
+            <h2>navbar</h2> 
+            <h2>data-toggle="dropdown"</h2>
+    <div class="container">
+        <h1>Ví dụ về .container</h1>
+        <p>Nội dung chi tiết.</p>
+    </div>
+    <div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-8 col-lg-4">.col-md-8</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-8">.col-md-4</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">.col-md-3</div>
+        <div class="col-md-3">.col-md-3</div>
+        <div class="col-md-3">.col-md-3</div>
+        <div class="col-md-3">.col-md-3</div>
+    </div>
+    <div class="container">
+  <div class="row">
+    <div class="col">
+      Cột 1 của 2
+    </div>
+    <div class="col">
+      Cột 2 của 2
+    </div>
+  </div>
+</div>
+<div class="container">
+    <div class="row">
+      <div class="col-3">
+        Cột 1 - chiếm 3/12 chiều rộng
+      </div>
+      <div class="col-6">
+        Cột 2 - chiếm 6/12 chiều rộng
+      </div>
+      <div class="col-3">
+        Cột 3 - chiếm 3/12 chiều rộng
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <button type="button" class="btn btn-outline-primary">Chính</button>
+    <button type="button" class="btn btn-outline-secondary">Phụ</button>
+    <button type="button" class="btn btn-outline-success">Thành công</button>
+    <button type="button" class="btn btn-outline-info">Thông tin</button>
+    <button type="button" class="btn btn-outline-warning">Cảnh báo</button>
+    <button type="button" class="btn btn-outline-danger">Nguy hiểm</button>
+    <button type="button" class="btn btn-outline-dark">Màu tối đậm</button>
+    <button type="button" class="btn btn-outline-light text-dark">Màu xám nhạt</button>
+  </div>
+  <button type="button" class="btn btn-primary active">Nút có thể click</button>
+  <button type="button" class="btn btn-primary" disabled>Nút không thể click</button>
+  <div class="container">
+    <button class="btn btn-primary">
+      <span class="spinner-border spinner-border-sm"></span>
+    </button>
+    <button class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading..
+      </button>
+      <button class="btn btn-primary" disabled>
+        <span class="spinner-grow spinner-grow-sm"></span>
+        Loading..
+      </button>
+      <img src="https://i.guim.co.uk/img/media/20098ae982d6b3ba4d70ede3ef9b8f79ab1205ce/0_0_969_581/master/969.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=a368f449b1cc1f37412c07a1bd901fb5" class="img-fluid" alt="...">
+      <h2>img-fluid giúp ảnh luôn nhỏ hơn hoặc bằng kích thước gốc của nó và thu nhỏ hình lại nếu cửa sổ trình duyệt hẹp hơn độ rộng của hình ảnh theo pixel</h2>
+      <img src="https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=0d3f33fb6aa6e0154b7713a00454c83d" class="img-thumbnail" alt="...">
+    <h2>img-thumbnail sẽ chuyển thành ảnh thu nhỏ có đường viền và cũng giống như trên nếu cần fix kích thước chỉ cần khai báo chiều rộng và chiều cao của ảnh</h2>
+    <img src="https://www.sciencemag.org/sites/default/files/styles/inline__450w__no_aspect/public/dogs_1280p_0.jpg?itok=h6VBayx-" class="rounded" >
+    <h2>round sẽ bo tròn 4 góc ảnh</h2>
+    <h2>round-circle sẽ bo tròn 1 góc ảnh</h2>
+    <picture>
+        <source srcset="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*" type="image/svg+xml" media="(min-width: 576px)">
+        <source srcset="https://www.sciencemag.org/sites/default/files/styles/inline__450w__no_aspect/public/dogs_1280p_0.jpg?itok=h6VBayx-" type="image/svg+xml">
+        <img src="" class="img-fluid img-thumbnail" alt="...">
+    </picture>
+    <h2>picture được thiết kế như một phần từ chính thức của html5 nó sẽ mang lại các hình ảnh có tính đáp ứng tương tự như các phần tử audio video</h2>
+    <h1>text</h1>
+    <div class="container">
+        <h4 class="mb-3">Text Alignment</h4>
+        <p class="text-left text-sm-center text-md-right">
+          (.text-left .text-sm-center .text-md-right)
+        </p>
+      </div>
+    <h1>text wrapping and overflow</h1>
+    <div class="container">
+        <h4>Text Wrapping</h4>
+        <div class="border border-danger">
+          Bootstrap is a free and open-source front-end framework.
+        </div>
+    </div>
+    <h2>wraping là hiện tượng một phần tử của nội dung của văn bản bị đẩy xuống các dòng dưới nếu độ dài của văn bản lớn hơn chiều rộng của phần tử cha</h2>
+    <div class="container">
+        <h4 class="mb-4">.text-nowrap</h4>
+        <div class="text-nowrap border border-danger">
+           Bootstrap is a free and open-source front-end framework.
+        </div>
+    </div>
+    <h2>sử dụng text-nowrap cho phần tử cha để loại bỏ hiện tượng wrapping nhưng bạn sẽ nhìn thấy hiện tượng bị tràn</h2>
+    <h2>để tránh tràn văn bản bạn có thể dùng class-truncate để áp dụng cho phần tử cha nhưng phần tử phải được thiết lập d-block hoặc mặc định thiết lập d-block</h2>
+    <div class="container">
+        <h4 class="mb-4">.text-truncate</h4>
+        <div class="text-truncate border border-danger">
+          Bootstrap is a free and open-source front-end framework.
+        </div>
+      </div>
+    <h1>text transform</h1>
+      <div class="container">
+        <h4 class="mb-3">Origin Text:</h4>
+        <p>bootSTrap teXt</p>
+        <hr>
+        <h5>.text-lowercase</h5>
+        <p class="text-lowercase">bootSTrap teXt</p>
+        <h5>.text-uppercase</h5>
+        <p class="text-uppercase">bootSTrap teXt</p>
+        <h5>.text-capitalize</h5>
+        <p class="text-capitalize">bootSTrap teXt</p>
+    </div>
+    <h2>lowercase chữ thường</h2>
+    <h2>uppercase chữ in hoa</h2>
+    <h2>capitalize tất cả những chứ cái đầu tiên sẽ dc in hoa còn các chữ cái khác ko thay đổi</h2>
+    <h1>font weight and italic</h1>
+     <p class="font-weight-bold">font-weight-bold.</p>
+     <p class="font-weight-normal">font-weight-normal.</p>
+     <p class="font-weight-light">font-weight-light.</p>
+     <p class="font-italic">font-italic.</p>
+    <h1>word break (ngắt dòng)</h1>
+    – Khi 1 dòng văn bản của bạn quá dài, dài hơn cả khung hình, trình duyệt sẽ bị tạo 1 thanh scroll, bạn sẽ phải kéo ra để xem thêm, để ngắt dòng khi hết màn hình, trong bootstrap bạn sử dụng class text-break, bản chất của nó là 2 css overflow-wrap: break-word và word-break: break-word
+    <div class="text-break">Loremipsumdolorsitamet,consecteturadipiscingelit.Morbinonmetusnecfelisullamcorper.</div>    
+  <h1>Boostrap margin padding</h1>
+  <div class="row mx-md-n5">
+    <div class="col px-md-5"><div class="p-3 border bg-light">Custom column padding</div></div>
+    <div class="col px-md-5"><div class="p-3 border bg-light">Custom column padding</div></div>
+  </div>
+  
+  <div class="mx-auto" style="width: 200px;">
+    Centered element
+  </div>
+  <h2>ở đây khi dùng margin và padding người ta sẽ viết tắt là m và p có thể sẽ là riêng lẻ ví dụ là mb là margin bottom mx là margin auto</h2>
+  <h1>display:flex trong bootstrap</h1>
+  <div class="d-flex p-2 bd-highlight">
+  I'm a flexbox container!
+</div>
+ 
+<div class="d-inline-flex p-2 bd-highlight">
+  I'm an inline flexbox container!
+</div>
+   <h2>tiếp thep là về wrap</h2>
+   <h4> .d-flex .flex-wrap</h4>
+<div class="d-flex flex-wrap p-2 border border-danger" style="width:350px">
+   <div class="mr-2 border">Flex Item 1</div>
+   <div class="mr-2 border">Flex Item 2</div>
+   <div class="mr-2 border">Flex Item 3</div>
+   <div class="mr-2 border">Flex Item 4</div>
+   <div class="mr-2 border">Flex Item 5</div>
+</div> 
+ 
+<h4> .d-flex .flex-wrap-reverse</h4>
+<div class="d-flex flex-wrap-reverse p-2 border border-danger" style="width:350px">
+   <div class="mr-2 border">Flex Item 1</div>
+   <div class="mr-2 border">Flex Item 2</div>
+   <div class="mr-2 border">Flex Item 3</div>
+  <div class="mr-2 border">Flex Item 4</div>
+   <div class="mr-2 border">Flex Item 5</div>
+</div>
+ 
+<h4> .d-flex .flex-nowrap </h4>
+<div class="d-flex flex-nowrap p-2 border border-danger" style="width:350px">
+   <div class="mr-2 border">Flex Item 1</div>
+   <div class="mr-2 border">Flex Item 2</div>
+   <div class="mr-2 border">Flex Item 3</div>
+  <div class="mr-2 border">Flex Item 4</div>
+   <div class="mr-2 border">Flex Item 5</div>
+</div>
+<h2>với flex-wrap nếu document vượt quá thì nó sẽ xuống dòng</h2>
+<h1>justify-content</h1>
+div class="container-fluid mt-3">
+   <div class="d-flex justify-content-start p-1 mb-2 bg-secondary">
+      <div class="m-1 p-1 bg-light">Flex Item 1</div>
+      <div class="m-1 p-1 bg-light">Flex Item 2</div>
+      <div class="m-1 p-1 bg-light">Flex Item 3</div>
+   </div>
+ 
+   <div class="d-flex justify-content-end p-1 mb-2 bg-secondary">
+      <div class="m-1 p-1 bg-light">Flex Item 1</div>
+      <div class="m-1 p-1 bg-light">Flex Item 2</div>
+      <div class="m-1 p-1 bg-light">Flex Item 3</div>
+   </div>
+ 
+   <div class="d-flex justify-content-center p-1 mb-2 bg-secondary">
+      <div class="m-1 p-1 bg-light">Flex Item 1</div>
+      <div class="m-1 p-1 bg-light">Flex Item 2</div>
+      <div class="m-1 p-1 bg-light">Flex Item 3</div>
+   </div>
+ 
+   <div class="d-flex justify-content-between p-1 mb-2 bg-secondary">
+      <div class="m-1 p-1 bg-light">Flex Item 1</div>
+      <div class="m-1 p-1 bg-light">Flex Item 2</div>
+      <div class="m-1 p-1 bg-light">Flex Item 3</div>
+   </div>
+ 
+   <div class="d-flex justify-content-around p-1 mb-2 bg-secondary">
+      <div class="m-1 p-1 bg-light">Flex Item 1</div>
+      <div class="m-1 p-1 bg-light">Flex Item 2</div>
+      <div class="m-1 p-1 bg-light">Flex Item 3</div>
+   </div>
+</div>
+<h1>các justify sẽ căn theo lề được chỉ định ví dụ như justify around sẽ căn và giữ giữa và 2 cái ngòai sẽ cách đề với giữa</h1>
+<h1>thuộc tính i</h1>
+<i class="fa fa-circle-o-notch fa-spin"></i>
+<i class="fa fa-refresh fa-spin"></i>
+<i class="fa fa-cog fa-spin"></i>
+<i class="fa fa-spinner fa-pulse"></i>
+<i class="fa fa-spinner fa-spin"></i>
+<i class="fas fa-book-reader fa-lg"></i>
+<i class="fa fa-shield"></i> normal<br>
+<i class="fa fa-shield fa-rotate-90"></i> fa-rotate-90<br>
+<i class="fa fa-shield fa-rotate-180"></i> fa-rotate-180<br>
+<i class="fa fa-shield fa-rotate-270"></i> fa-rotate-270<br>
+<i class="fa fa-shield fa-flip-horizontal"></i> fa-flip-horizontal<br>
+<i class="fa fa-shield fa-flip-vertical"></i> icon-flip-vertical
+
+<h1>stacked icons là bạn tạo ra một icon từ nhiều icons</h1>
+<p>
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-square-o fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x"></i>
+    </span>
+    fa-twitter on fa-square-o<br>
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+    </span>
+    fa-flag on fa-circle<br>
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-square fa-stack-2x"></i>
+        <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+    </span>
+    fa-terminal on fa-square<br>
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-camera fa-stack-1x"></i>
+        <i class="fa fa-ban fa-stack-2x text-danger"></i>
+    </span>
+    fa-ban on fa-camera
+</p>
+<h1>các display</h1>
+<h2>các khối d-block </h2>
+<div style="display: inline-block; width: 200px; height: 100px; background-color: lightblue;">Phần tử 1</div>
+<div style="display: inline-block; width: 200px; height: 100px; background-color: lightgreen;">Phần tử 2</div>
+<h3 class="mb-3">.d-inline-block example</h3>
+ 
+<div class="container-fluid">
+   <div class="d-inline-block border border-primary" style="width:100px;">
+      .d-inline (width:100px)
+   </div>
+   <div class="d-inline-block border border-info">
+      .d-inline (no width, no height)
+   </div>
+   <div class="d-inline-block border border-danger" style="height:90px;">
+      .d-inline (height:90px)
+   </div>
+   <div style="display: table; width: 100%;">
+    <div style="display: table-row; background-color: lightblue;">
+      <div style="display: table-cell;">Cell 1</div>
+      <div style="display: table-cell;">Cell 2</div>
+    </div>
+    <div style="display: table-row; background-color: lightgreen;">
+      <div style="display: table-cell;">Cell 3</div>
+      <div style="display: table-cell;">Cell 4</div>
+      <h2>display:table là thuộc tính thiết lập bảng cái này thì nó khá giống với thuộc tính table ở html nhé</h2>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+    <h3 class="mb-3 text-danger">.d-table + .d-table-row</h3>
+  
+    <h4>.d-table {border-collapse: collapse}</h4>
+    <div class="d-table" style="border-collapse: collapse;">
+       <div class="d-table-row border border-primary">
+          .d-table-row .border .border-primary
+        </div>
+        <div class="d-table-row border border-success" >
+           .d-table-row .border .border-success
+        </div>
+     </div>
+   
+     <h4 class="mt-3">.d-table {border-collapse: collapse} + width: 100% </h4>
+     <div class="d-table w-100" style="border-collapse: collapse;">
+        <div class="d-table-row border border-primary">
+           .d-table-row .border .border-primary
+        </div>
+        <div class="d-table-row border border-success" >
+           .d-table-row .border .border-success
+        </div>
+     </div>
+  </div>
+  <div class="container-fluid border border-danger p-2">
+    <h3 class="mb-3 text-danger">.d-none</h3>
+
+    <div class="d-none d-sm-block bg-info">
+       .d-none .d-sm-block
+    </div>
+    <h2>nếu bạn dùng d-none thì nó sẽ ko hiển thị nhưng mà nếu bạn thêm vào class d khác thì sẽ hiện ra đóa nhá</h2>
+ </div>
+ <h1>d-print-....</h1>
+ <div class="container-fluid">
+    <h3 class="d-print-none">Print Example</h3>
+    <div class="d-print-block border bg-info mb-2 p-2">
+        <p>.d-print-block</p>
+        <p>Print this Content.</p>
+        <p>Print this Content.</p>
+        <p>Print this Content.</p>
+    </div>
+    <div class="d-print-none border bg-danger p-2">
+        <p>.d-print-none</p>
+        <p>Do not print this Content.</p>
+        <p>Do not print this Content.</p>
+    </div> 
+</div>
+ <h2 class=" border bg-info d-block">cấu trúc d-print... đúng với cái tên print nó là in nma đôi khi người dùng muốn in nội dung của trang nhưng thức tế có những nội dung ko cần thiết để in nó chỉ gây ra tốn kém nên là sẽ có những class để giúp bạn hiện thị các vùng kín</h2>
+ <div class="container-fluid">
+    <h3 class="mb-3">.d-block example</h3>
+    <div class="d-block border" style="width:150px;">
+       .d-block (width:150px)
+    </div>
+    <div class="d-block border">
+       .d-block
+    </div>
+    <div class="d-block border" style="height:90px;">
+       .d-block (height:90px)
+    </div>
+ </div>
+ <h3 class="mb-3">.d-inline example</h3>
+ 
+<div class="container-fluid">
+   <div class="d-inline border border-primary" style="width:100px;">
+      I am a .d-inline (width:100px not worked!)
+   </div>
+   <div class="d-inline border border-info">
+      I am a .d-inline
+   </div>
+   <div class="d-inline border border-danger" style="height:90px;">
+      I am a .d-inline (height:90px not worked!)
+   </div>
+</div>
+<div class="container-fluid">
+    <h3 class="mb-3 text-danger">.d-table + .d-table-row</h3>
+  
+    <h4>.d-table {border-collapse: collapse}</h4>
+    <div class="d-table" style="border-collapse: collapse;">
+       <div class="d-table-row border border-primary">
+          .d-table-row .border .border-primary
+       </div>
+       <div class="d-table-row border border-success" >
+          .d-table-row .border .border-success
+       </div>
+    </div>
+    <div class="container-fluid">
+        <h3 class="mb-3 text-danger">.d-table-cell</h3>
+      
+        <div class="d-table">
+           <div class="d-table-row">
+              <div class="d-table-cell border p-4" style="width:200px;height:50px;">
+                 .d-table-cell .border .p-4 (padding)
+                 {width:200px;height:50px;}
+              </div>
+              <div class="d-table-cell border">
+                 .d-table-cell .border
+              </div>
+           </div>
+           <div class="d-table-row">
+              <div class="d-table-cell border">
+                 .d-table-cell .border
+              </div>
+              <div class="d-table-cell border">
+                 .d-table-cell .border
+              </div>
+           </div>
+        </div>
+       <h1>Carousel là 1 plugin trong bootstrap nói riêng của jquery nói chung dùng để duyệt các phần tử tuần tự xoay vòng như tự như 1 slideshow</h1>
+    
+    
+       <div id="carousel-simple" class="carousel slide col-md-6 col-md-offset-3" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-simple" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-simple" data-slide-to="1"></li>
+          <li data-target="#carousel-simple" data-slide-to="2"></li>
+          <li data-target="#carousel-simple" data-slide-to="3"></li>
+        </ol>
+   
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="media/products/2.png" alt="">
+          </div>
+          <div class="item">
+            <img src="media/products/3.png" alt="">
+          </div>
+          <div class="item">
+            <img src="media/products/17.png" alt="">
+          </div>
+          <div class="item">
+            <img src="media/products/24.png" alt="">
+          </div>
+        </div>
+   
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-simple" role="button" data-slide="prev">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </a>
+        <a class="right carousel-control" href="#carousel-simple" role="button" data-slide="next">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </a>
+  </div>
+  <h1>giải thích các thành phần</h1>
+    <h2>id#carousel-simple dùng để định nghĩa các button điều khiển sẽ thông qua id này để giúp chúng ta thao tác xem các slide tiếp theo hoặc slide trước đó</h2>
+    <h2>class.carousel để mô tả các thẻ div này chứa 1 carousel bạn có thể sử dụng class này trong script để thay đổi các option cho carousel </h2>
+    <h2>class.slide để thêm các hiệu ứng chuyển động chuyển tiếp làm cho 1 đối tượng sẽ có hiệu ứng trượt khi hiển thị mới</h2>
+    <h2>data-ride="carousel" nhằm kích hoạt hiệu ứng hoạt hình sẽ ngay lập tức được hoạt động khi được trang tải</h2>
+    <div class="d-table"> 
+    <h2 class="boder bg-info d-table-cell">indicators là các chấm tròn màu xanh ở dưới slide như ảnh demo bên trên phần này cho chúng ta biết số phần tử slide hiện có và slide nào đang được hiển thị trong carousel này phần này có 2 thuộc tính cơ bản</h2>
+      <h3 class="boder bg-danger d-table-row">data-target để chỉ đến id của carousel thongo qua id của carousel chúng ta có thể thao tác lên các phần tử slide chẳng hạn bạn muốn xem slide tiếp theo bạn có thể click vào chấm tròn thay vì click vào button</h3>
+      <h3 class="boder bg-danger d-table-row">data-slide-to dùng để truyền chỉ số của 1 slide nó các tác dụng vị trí của silde tới một vị trí có chỉ số cụ thể tính từ 0</h3>
+    </div>
+    <h1>wrapper for slides được định nghĩa bên trong thẻ div với class.caroudel-inner nội dung của mỗi slide sẽ được định nghĩa  trong class.item. class.active để mô tả slide nào bên trong hiển thị</h1>
+    <h2>left and right controls là các nút cho phép người dùng xem hình ảnh trước sau khi nhấn chuột lên các nút này. thuộc tính data-slide cho phép người dùng khóa prev hay next để định nghĩa vị trí tiếp theo của 1 slide dựa vào vị trí của slide hiện tại</h2>    
+    <h2>thêm caption cho carousel để thêm vào các slide trong 1 carousel đơn giản là thêm phần tử div class="carousel-caption" bên trong mỗi phần tử div class="item" để tạo chú thích cho mỗi slide bạn nó sẽ định dạng và căn chỉnh tử dộng</h2>
+  <h1>form</h1>
+  <div class="container mt-4">
+    <h4>Đăng Nhập</h4>
+    <form>
+      <div class="form-group">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="Nhập email của bạn">
+      </div>
+      <div class="form-group">
+          <label for="inputMatKhau">Mật Khẩu</label>
+          <input type="password" class="form-control" id="inputMatKhau" placeholder="Nhập Mật Khẩu">
+      </div>
+   
+      <button type="submit" class="btn btn-primary">Đăng Nhập</button>
+  </form>
+</div>
+ <h1>form-text</h1>
+ <div class="container mt-4">
+    <form>
+      <div class="form-group">
+      <label>Mật Khẩu</label>
+      <input type="password" class="form-control">
+      <small class="form-text text-muted">
+          Mật Khẩu của bạn phải có độ dài 8 đến 20 kí tự, phải chứa
+        chữ, số và các kí hiệu đặc biệt.
+      </small>
+  </div>
+  <h1>disabled form</h1>
+  <form>
+    <fieldset >
+      <legend>Disabled fieldset example</legend>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Disabled input</label>
+        <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input" disabled>
+      </div>
+      <div class="mb-3">
+        <label for="disabledSelect" class="form-label">Disabled select menu</label>
+        <select id="disabledSelect" class="form-select">
+          <option>Disabled select</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" >
+          <label class="form-check-label" for="disabledFieldsetCheck">
+            Can't check this
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </fieldset>
+  </form>
+  <form>
+    <label for="inputEmail" class="form-label">Email</label>
+    <input type="email" id="inputEmail" class="form-control" placeholder="khiemadu">
+  </form>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">@</span>
+    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <span class="input-group-text" id="basic-addon2">@example.com</span>
+  </div>
+  <label for="basic-url" class="form-label">Your vanity URL</label>
+<div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+</div>
+<div class="input-group flex-wrap">
+    <span class="input-group-text" id="addon-wrapping">@</span>
+    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+  </div>
+  <div class="input-group input-group-sm mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-text">
+      <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with checkbox">
+  </div>
+   
+  <div class="input-group">
+    <div class="input-group-text">
+      <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with radio button">
+  </div>
+  <div class="input-group">
+    <span class="input-group-text">First and last name</span>
+    <input type="text" aria-label="First name" class="form-control">
+    <input type="text" aria-label="Last name" class="form-control">
+  </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text">$</span>
+    <span class="input-group-text">0.00</span>
+    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+  </div>
+   
+  <div class="input-group">
+    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+    <span class="input-group-text">$</span>
+    <span class="input-group-text">0.00</span>
+  </div>
+  <div class="input-group mb-3">
+    <button type="button" class="btn btn-outline-secondary">Action</button>
+    <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="<div class="input-group mb-3">
+        <button type="button" class="btn btn-outline-secondary">Action</button>
+        <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+        <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+      </div>">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+    <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+  </div>
+  
+</body>
+</html>

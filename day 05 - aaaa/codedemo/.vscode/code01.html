@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        li{
+            list-style: none;
+          }
+        .table:hover ul{
+           display: block; 
+        }
+        a{
+            text-decoration: none;
+        }
+        .table ul{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+     <ul>
+        <li><a href="#">menu</a></li>
+        <li class="table"><a href="#">item 2</a>
+            <ul>
+                <li><a href="#">com ga</a></li>
+                <li><a href="#">tam</a></li>
+                <li><a href="#">ri</a></li>
+            </ul>
+        </li>
+     </ul>
+     <div class="container">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        </div>
+</body>
+</html>
