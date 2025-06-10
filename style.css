@@ -1,0 +1,54 @@
+/* Quy tắc cho body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Quy tắc cho header */
+header {
+  background-color: #004466;
+  padding: 20px;
+  color: white;
+}
+
+/* Quy tắc cho nav */
+nav {
+  background-color: #006699;
+  padding: 10px;
+}
+
+/* Quy tắc cho main */
+main {
+  background-color: #ffffff;
+  font-size: 17px;
+  padding: 20px;
+}
+
+/* Quy tắc cho footer */
+footer {
+  background-color: #003344;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Quy tắc cho li */
+li {
+  display: inline-block;
+  width: 150px;
+  margin-right: 10px;
+}
+
+/* Quy tắc cho h1 */
+h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  color: #004466;
+}
+
+/* Quy tắc cho p */
+p {
+  line-height: 1.6;
+}
