@@ -1,31 +1,93 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - My CSS Project</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <title>Interactive Photo Gallery</title>
+    <style>
+        #image {
+            width: 600px;
+            height: 400px;
+            border: 2px solid black;
+            margin-bottom: 20px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        .thumbnail {
+            width: 150px;
+            height: 100px;
+            margin: 5px;
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+        .thumbnail:hover {
+            border-color: #007BFF;
+        }
+        .gallery {
+            display: flex;
+        }
+    </style>
 </head>
 <body>
-    <a href="#main" class="skip-link">Skip to Main Content</a>
+    <h1>Interactive Photo Gallery</h1>
 
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Phần hiển thị ảnh và chữ -->
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
 
-    <main id="main">
-        <h1>Welcome to My CSS Project</h1>
-        <p>This is the homepage with a single image.</p>
-        <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d" alt="Laptop on desk">
-    </main>
+    <!-- Các ảnh thumbnail -->
+    <div class="gallery">
+        <img src="https://via.placeholder.com/150x100/FF0000/FFFFFF?text=Red" 
+             alt="Ảnh màu đỏ" 
+             class="thumbnail"
+             onmouseover="upDate(this)" 
+             onmouseout="undo()" />
 
-    <footer>
-        <p>&copy; 2025 My CSS Project</p>
-    </footer>
+        <img src="https://via.placeholder.com/150x100/00FF00/FFFFFF?text=Green" 
+             alt="Ảnh màu xanh lá" 
+             class="thumbnail"
+             onmouseover="upDate(this)" 
+             onmouseout="undo()" />
+
+        <img src="https://via.placeholder.com/150x100/0000FF/FFFFFF?text=Blue" 
+             alt="Ảnh màu xanh dương" 
+             class="thumbnail"
+             onmouseover="upDate(this)" 
+             onmouseout="undo()" />
+    </div>
+
+    <script>
+        function upDate(previewPic) {
+            console.log("Event triggered on image:", previewPic);
+
+            // Lấy phần tử có id="image"
+            let imageDiv = document.getElementById('image');
+
+            // Thay đổi background image
+            imageDiv.style.backgroundImage = "url('" + previewPic.src + "')";
+
+            // Thay đổi nội dung chữ
+            imageDiv.innerHTML = previewPic.alt;
+
+            console.log("Alt text:", previewPic.alt);
+            console.log("Image src:", previewPic.src);
+        }
+
+        function undo() {
+            let imageDiv = document.getElementById('image');
+
+            // Trả về trạng thái mặc định
+            imageDiv.style.backgroundImage = "none";
+            imageDiv.innerHTML = "Hover over an image below to display here.";
+        }
+    </script>
 </body>
 </html>
